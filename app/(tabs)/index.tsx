@@ -1,12 +1,20 @@
 import { Image, StyleSheet, Text, TextInput, Touchable, TouchableOpacity, View } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 import { Stack } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import { useHeaderHeight } from '@react-navigation/elements'
+import CategoryButtons from '@/components/CategoryButtons'
 
 const Page = () => {
   const headerHeight = useHeaderHeight();
+  
+  const [category, setCategory ] = useState('All');
+
+  const onCatChanged = (category:string)=>{
+    console.log("category:",category);
+    setCategory(category);
+  }
 
   return (
   <>
@@ -37,15 +45,16 @@ const Page = () => {
     }}/>
     <View style={[styles.container,{paddingTop: headerHeight}]}>
       <Text  style={styles.headingTxt}>Explore The Beautiful World!</Text>
-      <View>
-        <View>
-          <Ionicons name='search' size={18}/>
+      <View style={styles.searchSectionWrapper}>
+        <View style={styles.searchBar}>
+          <Ionicons name='search' size={18} style={{marginRight:5}} color={Colors.black}/>
           <TextInput placeholder='Search Place...'/>
         </View>
         <TouchableOpacity onPress={()=>{}}>
-           <Ionicons name='options' size={28}/>
+           <Ionicons name='options' size={28} style={styles.filterBtn} color={Colors.white}/>
         </TouchableOpacity>
       </View>
+      <CategoryButtons onCategoryChanged={onCatChanged}/>
     </View>
   </> 
   )
@@ -64,5 +73,22 @@ const styles = StyleSheet.create({
     fontWeight: '800',
     color:Colors.black,
     marginTop:10,
+  },
+  searchSectionWrapper:{
+    flexDirection:'row',
+    marginVertical:20
+  },
+  searchBar:{
+    flex:1,
+    flexDirection:'row',
+    backgroundColor:Colors.white,
+    padding:16,
+    borderRadius:10,
+  },
+  filterBtn:{
+    backgroundColor:Colors.primaryColor,
+    padding:16,
+    borderRadius:10,
+    marginLeft:20
   }
 })
