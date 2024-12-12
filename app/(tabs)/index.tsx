@@ -58,7 +58,7 @@ const Page = () => {
       </View>
       <CategoryButtons onCategoryChanged={onCatChanged}/>
 
-      <Listings listings={listingsData} />
+      <Listings listings={listingsData} category={category}/>
 
     </View>
   </> 
