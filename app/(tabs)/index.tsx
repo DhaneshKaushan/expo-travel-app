@@ -5,6 +5,8 @@ import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import { useHeaderHeight } from '@react-navigation/elements'
 import CategoryButtons from '@/components/CategoryButtons'
+import Listings from '@/components/Listings'
+import listingsData from '@/data/destinations.json'
 
 const Page = () => {
   const headerHeight = useHeaderHeight();
@@ -55,6 +57,9 @@ const Page = () => {
         </TouchableOpacity>
       </View>
       <CategoryButtons onCategoryChanged={onCatChanged}/>
+
+      <Listings listings={listingsData} />
+
     </View>
   </> 
   )

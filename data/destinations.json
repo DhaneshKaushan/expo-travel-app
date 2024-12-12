@@ -1,0 +1,201 @@
+[
+    {
+      "id": 1,
+      "name": "Sunny Beach",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "description": "A relaxing beach with golden sands and clear waters.",
+      "rating": 4.5,
+      "price": 150,
+      "duration": "2 days",
+      "location": "Maldives",
+      "category": "Beaches"
+    },
+    {
+      "id": 2,
+      "name": "Snowy Peaks",
+      "image": "https://img.freepik.com/premium-photo/morning-winter-silvretta-alps-slope-with-tracks-from-skis-tyrol-austria_392053-6682.jpg?w=740",
+      "description": "Breathtaking snowy mountains for adventurous souls.",
+      "rating": 4.8,
+      "price": 300,
+      "duration": "5 days",
+      "location": "Switzerland",
+      "category": "Mountains"
+    },
+    {
+      "id": 3,
+      "name": "Urban Escape",
+      "image":"https://img.freepik.com/premium-photo/kind-bearded-man-wearing-headphones-while-listening-music-chatting-with-his-friend-online_447912-1816.jpg?w=360",
+      "description": "Explore the vibrant streets of this bustling city.",
+      "rating": 4.2,
+      "price": 200,
+      "duration": "3 days",
+      "location": "Japan",
+      "category": "Cities"
+    },
+    {
+      "id": 4,
+      "name": "Emerald Forest",
+      "image": "https://img.freepik.com/premium-photo/forest-with-fog_480416-751.jpg?w=740",
+      "description": "Immerse yourself in lush green forests and wildlife.",
+      "rating": 4.7,
+      "price": 180,
+      "duration": "4 days",
+      "location": "Brazil",
+      "category": "Forests"
+    },
+    {
+      "id": 5,
+      "name": "Crystal Lake",
+      "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "description": "A serene lake perfect for relaxation and reflection.",
+      "rating": 4.4,
+      "price": 120,
+      "duration": "2 days",
+      "location": "Canada",
+      "category": "Lakes"
+    },
+    {
+      "id": 6,
+      "name": "Ancient Ruins",
+      "image": "https://img.freepik.com/free-photo/ancient-architecture-ruined-stone-monument-majestic-sunset-generated-by-ai_188544-21353.jpg?t=st=1733982825~exp=1733986425~hmac=c25df1a983bcc005125475737ebd5a1409785c0eaa8581a083dda1953efbbf70&w=826",
+      "description": "Explore the mysteries of historical ruins.",
+      "rating": 4.6,
+      "price": 250,
+      "duration": "3 days",
+      "location": "Italy",
+      "category": "Historical Sites"
+    },
+    {
+      "id": 7,
+      "name": "Savannah Adventure",
+      "image": "https://img.freepik.com/free-photo/park-china_1127-3689.jpg?t=st=1733982949~exp=1733986549~hmac=0fea01e0c1da58ffd22e573ae9c200cec8813b9a639f8d193040739f303b312d&w=740",
+      "description": "Witness incredible wildlife at a national park.",
+      "rating": 4.9,
+      "price": 400,
+      "duration": "7 days",
+      "location": "Kenya",
+      "category": "National Parks"
+    },
+    {
+      "id": 8,
+      "name": "Paradise Island",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98",
+      "description": "Experience the charm of a tropical island getaway.",
+      "rating": 4.8,
+      "price": 350,
+      "duration": "5 days",
+      "location": "Fiji",
+      "category": "Islands"
+    },
+    {
+      "id": 9,
+      "name": "Golden Dunes",
+      "image": "https://img.freepik.com/free-photo/3d-desert-scene-with-oasis-water-palm-trees_1048-12328.jpg?t=st=1733984030~exp=1733987630~hmac=d937da414c7e94c1c400ccde0acc305645a41b5a25da812f441ad62385d0d258&w=740",
+      "description": "Explore the vastness of golden desert landscapes.",
+      "rating": 4.3,
+      "price": 200,
+      "duration": "3 days",
+      "location": "Morocco",
+      "category": "Deserts"
+    },
+    {
+        "id": 10,
+        "name": "Golden Coast",
+        "image": "https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6730.jpg?t=st=1733983054~exp=1733986654~hmac=bb54c24ff316490f0ec06f5b5048e6a5074d42cbedfd9e2aece8159b5b8cfe94&w=740",
+        "description": "Stroll along the serene golden shores and feel the ocean breeze.",
+        "rating": 4.6,
+        "price": 180,
+        "duration": "3 days",
+        "location": "Australia",
+        "category": "Beaches"
+      },
+      {
+        "id": 11,
+        "name": "Misty Mountain Retreat",
+        "image": "https://img.freepik.com/free-photo/landscape-morning-fog-mountains-sunrise_335224-793.jpg?t=st=1733983551~exp=1733987151~hmac=b652f122c29492f8e0ff8327214d94216d8508327537b0c6ca6ab9f92a6ef254&w=740",
+        "description": "Relax in a cozy lodge surrounded by misty mountain peaks.",
+        "rating": 4.9,
+        "price": 400,
+        "duration": "6 days",
+        "location": "Nepal",
+        "category": "Mountains"
+      },
+      {
+        "id": 12,
+        "name": "Neon Nights",
+        "image": "https://img.freepik.com/free-photo/leisure-building-economy-water-urban-seascape_1417-1165.jpg?t=st=1733983470~exp=1733987070~hmac=eb61e8b6b7fb81231d9f7b479d84626c3fdb48e45cae335e9338c0280d404fc9&w=740",
+        "description": "Experience the vibrant nightlife of a bustling city.",
+        "rating": 4.5,
+        "price": 220,
+        "duration": "4 days",
+        "location": "Hong Kong",
+        "category": "Cities"
+      },
+      {
+        "id": 13,
+        "name": "Rainforest Escape",
+        "image": "https://img.freepik.com/free-photo/beautiful-scenery-river-surrounded-by-greenery-forest_181624-40482.jpg?t=st=1733983627~exp=1733987227~hmac=da64ef75aafd276d6cc75efc197b53f5e06aefa659d47549ebcd51b7d25724e3&w=740",
+        "description": "Adventure into the depths of a tropical rainforest.",
+        "rating": 4.8,
+        "price": 210,
+        "duration": "5 days",
+        "location": "Costa Rica",
+        "category": "Forests"
+      },
+      {
+        "id": 14,
+        "name": "Sapphire Waters",
+        "image": "https://img.freepik.com/premium-photo/beautiful-lake-landscape-from-borcka-karagol-nature-park_519469-6514.jpg?w=360",
+        "description": "Enjoy a quiet retreat by a sapphire-colored lake.",
+        "rating": 4.7,
+        "price": 130,
+        "duration": "2 days",
+        "location": "New Zealand",
+        "category": "Lakes"
+      },
+      {
+        "id": 15,
+        "name": "Colosseum Wonders",
+        "image": "https://img.freepik.com/free-photo/dome-toledo-cathedral_1398-3580.jpg?t=st=1733983788~exp=1733987388~hmac=38056a12a2c6358d75eee7c72c88ded15ec6291e26d5915963e3ce49c6f9dab7&w=360",
+        "description": "Take a guided tour of ancient Roman architecture.",
+        "rating": 4.6,
+        "price": 270,
+        "duration": "2 days",
+        "location": "Italy",
+        "category": "Historical sites"
+      },
+      {
+        "id": 16,
+        "name": "Serengeti Safari",
+        "image": "https://img.freepik.com/free-photo/park-with-wooden-pathway-benches_1137-254.jpg?t=st=1733983829~exp=1733987429~hmac=7f5048c72206bc17bea41b4ba6b2d2685d751f6a774740b0cd1864616b0ec9f6&w=740",
+        "description": "Explore the untamed wilderness and witness diverse wildlife.",
+        "rating": 4.9,
+        "price": 450,
+        "duration": "7 days",
+        "location": "Tanzania",
+        "category": "National parks"
+      },
+      {
+        "id": 17,
+        "name": "Tropical Hideaway",
+        "image": "https://img.freepik.com/free-photo/luxury-travel-maldives-exotic-blue_1203-5339.jpg?t=st=1733983894~exp=1733987494~hmac=4f05be944ad070e5f2d5e36a2ff98391d72104f081f076e3b323fbd5cec8cf42&w=740",
+        "description": "Relax on a secluded tropical island surrounded by crystal-clear water.",
+        "rating": 4.8,
+        "price": 320,
+        "duration": "5 days",
+        "location": "Seychelles",
+        "category": "Islands"
+      },
+      {
+        "id": 28,
+        "name": "Red Sand Trails",
+        "image": "https://img.freepik.com/free-photo/beautiful-landscape-orange-sand-dune-orange-sand-namib-desert-namib-naukluft-national-park-sossusvlei-namibia_1150-21674.jpg?t=st=1733983963~exp=1733987563~hmac=fb818e11789f023ccf030f347ec388172e2fc8757983f3f47001b6e0216f7dab&w=360",
+        "description": "Embark on an exciting journey through endless red sand dunes.",
+        "rating": 4.4,
+        "price": 190,
+        "duration": "3 days",
+        "location": "Dubai",
+        "category": "Deserts"
+      }
+  ]
+  
