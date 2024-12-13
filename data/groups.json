@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Adventure Seekers",
+      "image": "https://img.freepik.com/free-photo/happy-hipster-company-friends-traveling-around-world_285396-3650.jpg?t=st=1734031963~exp=1734035563~hmac=670614e4b3c272ab9f75983de0ec795bb9b9fca2dc2dcf943a487ccac7fa1ac5&w=740",
+      "rating": 4.5,
+      "reviews": 150
+    },
+    {
+      "id": 2,
+      "name": "Beach Lovers",
+      "image": "https://img.freepik.com/free-photo/romantic-couple-beach-sunset_343596-3906.jpg?t=st=1734032148~exp=1734035748~hmac=5c3c8d0a789270f4422382862c1561b80d50e6e229583ebbca63c2ca846c7d74&w=740",
+      "rating": 4.8,
+      "reviews": 200
+    },
+    {
+      "id": 3,
+      "name": "Mountain Explorers",
+      "image": "https://img.freepik.com/free-photo/group-people-walking-trek-bali_72229-1531.jpg?t=st=1734032057~exp=1734035657~hmac=4a673a479301f22245524a5b7efa98a438f7e5e9fb08ef239bd405225b82d2e7&w=360",
+      "rating": 4.6,
+      "reviews": 120
+    },
+    {
+      "id": 4,
+      "name": "City Wanderers",
+      "image": "https://img.freepik.com/premium-photo/happy-couple-walking-outdoors-sightseeing-holding-map_484651-12918.jpg?w=740",
+      "rating": 4.3,
+      "reviews": 180
+    }
+  ]
+  
