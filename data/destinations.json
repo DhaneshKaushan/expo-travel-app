@@ -6,7 +6,7 @@
       "description": "A relaxing beach with golden sands and clear waters.",
       "rating": 4.5,
       "price": 150,
-      "duration": "2 days",
+      "duration": "2",
       "location": "Maldives",
       "category": "Beaches"
     },
@@ -17,7 +17,7 @@
       "description": "Breathtaking snowy mountains for adventurous souls.",
       "rating": 4.8,
       "price": 300,
-      "duration": "5 days",
+      "duration": "5",
       "location": "Switzerland",
       "category": "Mountains"
     },
@@ -28,7 +28,7 @@
       "description": "Explore the vibrant streets of this bustling city.",
       "rating": 4.2,
       "price": 200,
-      "duration": "3 days",
+      "duration": "3",
       "location": "Japan",
       "category": "Cities"
     },
@@ -39,7 +39,7 @@
       "description": "Immerse yourself in lush green forests and wildlife.",
       "rating": 4.7,
       "price": 180,
-      "duration": "4 days",
+      "duration": "4",
       "location": "Brazil",
       "category": "Forests"
     },
@@ -50,7 +50,7 @@
       "description": "A serene lake perfect for relaxation and reflection.",
       "rating": 4.4,
       "price": 120,
-      "duration": "2 days",
+      "duration": "2",
       "location": "Canada",
       "category": "Lakes"
     },
@@ -61,7 +61,7 @@
       "description": "Explore the mysteries of historical ruins.",
       "rating": 4.6,
       "price": 250,
-      "duration": "3 days",
+      "duration": "3",
       "location": "Italy",
       "category": "Historical Sites"
     },
@@ -72,7 +72,7 @@
       "description": "Witness incredible wildlife at a national park.",
       "rating": 4.9,
       "price": 400,
-      "duration": "7 days",
+      "duration": "7",
       "location": "Kenya",
       "category": "National Parks"
     },
@@ -83,7 +83,7 @@
       "description": "Experience the charm of a tropical island getaway.",
       "rating": 4.8,
       "price": 350,
-      "duration": "5 days",
+      "duration": "5",
       "location": "Fiji",
       "category": "Islands"
     },
@@ -94,7 +94,7 @@
       "description": "Explore the vastness of golden desert landscapes.",
       "rating": 4.3,
       "price": 200,
-      "duration": "3 days",
+      "duration": "3",
       "location": "Morocco",
       "category": "Deserts"
     },
@@ -105,7 +105,7 @@
         "description": "Stroll along the serene golden shores and feel the ocean breeze.",
         "rating": 4.6,
         "price": 180,
-        "duration": "3 days",
+        "duration": "3",
         "location": "Australia",
         "category": "Beaches"
       },
@@ -116,7 +116,7 @@
         "description": "Relax in a cozy lodge surrounded by misty mountain peaks.",
         "rating": 4.9,
         "price": 400,
-        "duration": "6 days",
+        "duration": "6",
         "location": "Nepal",
         "category": "Mountains"
       },
@@ -127,7 +127,7 @@
         "description": "Experience the vibrant nightlife of a bustling city.",
         "rating": 4.5,
         "price": 220,
-        "duration": "4 days",
+        "duration": "4",
         "location": "Hong Kong",
         "category": "Cities"
       },
@@ -138,7 +138,7 @@
         "description": "Adventure into the depths of a tropical rainforest.",
         "rating": 4.8,
         "price": 210,
-        "duration": "5 days",
+        "duration": "5",
         "location": "Costa Rica",
         "category": "Forests"
       },
@@ -149,7 +149,7 @@
         "description": "Enjoy a quiet retreat by a sapphire-colored lake.",
         "rating": 4.7,
         "price": 130,
-        "duration": "2 days",
+        "duration": "2",
         "location": "New Zealand",
         "category": "Lakes"
       },
@@ -160,7 +160,7 @@
         "description": "Take a guided tour of ancient Roman architecture.",
         "rating": 4.6,
         "price": 270,
-        "duration": "2 days",
+        "duration": "2",
         "location": "Italy",
         "category": "Historical sites"
       },
@@ -171,7 +171,7 @@
         "description": "Explore the untamed wilderness and witness diverse wildlife.",
         "rating": 4.9,
         "price": 450,
-        "duration": "7 days",
+        "duration": "7",
         "location": "Tanzania",
         "category": "National parks"
       },
@@ -182,7 +182,7 @@
         "description": "Relax on a secluded tropical island surrounded by crystal-clear water.",
         "rating": 4.8,
         "price": 320,
-        "duration": "5 days",
+        "duration": "5",
         "location": "Seychelles",
         "category": "Islands"
       },
@@ -193,7 +193,7 @@
         "description": "Embark on an exciting journey through endless red sand dunes.",
         "rating": 4.4,
         "price": 190,
-        "duration": "3 days",
+        "duration": "3",
         "location": "Dubai",
         "category": "Deserts"
       }
