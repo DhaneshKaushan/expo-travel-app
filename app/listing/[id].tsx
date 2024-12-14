@@ -18,6 +18,13 @@ import {
   Ionicons,
 } from "@expo/vector-icons";
 import Colors from "@/constants/Colors";
+import Animated, {
+  interpolate,
+  SlideInDown,
+  useAnimatedRef,
+  useAnimatedStyle,
+  useScrollViewOffset,
+} from "react-native-reanimated";
 
 const { width } = Dimensions.get("window");
 const IMG_HEIGHT = 300;
@@ -29,9 +36,36 @@ const ListingDetails = () => {
   );
 
   const router = useRouter();
+
+  const scrollRef = useAnimatedRef<Animated.ScrollView>();
+  const scrollOffset = useScrollViewOffset(scrollRef);
+  const imageAnimatedStyle = useAnimatedStyle(() => {
+    return {
+      transform: [
+        {
+          translateY: interpolate(
+            scrollOffset.value,
+            [-IMG_HEIGHT, 0, IMG_HEIGHT],
+            [-IMG_HEIGHT / 2, 0, IMG_HEIGHT * 0.75]
+          ),
+        },
+        {
+          scale: interpolate(
+            scrollOffset.value,
+            [-IMG_HEIGHT, 0, IMG_HEIGHT],
+            [2 , 1, 1],//3, 1, 0.8
+          ),
+        }
+      ],
+      
+    };
+    
+  })
+
   return (
     <>
       <Stack.Screen
+
         options={{
           headerTransparent: true,
           headerTitle: "",
@@ -78,8 +112,14 @@ const ListingDetails = () => {
         }}
       />
       <View style={styles.container}>
-        <ScrollView contentContainerStyle={{paddingBottom:150}}>
-          <Image source={{ uri: listing.image }} style={styles.image} />
+        <Animated.ScrollView
+          ref={scrollRef}
+          contentContainerStyle={{ paddingBottom: 150 }}
+        >
+          <Animated.Image
+            source={{ uri: listing.image }}
+            style={[styles.image , imageAnimatedStyle]}
+          />
           <View style={styles.contentWrapper}>
             <Text style={styles.listingName}>{listing.name}</Text>
             <View style={styles.listingLocationWraper}>
@@ -129,9 +169,9 @@ const ListingDetails = () => {
 
             <Text style={styles.listingsDetails}>{listing.description}</Text>
           </View>
-        </ScrollView>
+        </Animated.ScrollView>
       </View>
-      <View style={styles.footer}>
+      <Animated.View style={styles.footer} entering={SlideInDown.delay(200)}>
         <TouchableOpacity
           onPress={() => {}}
           style={[styles.footerBtn, styles.footerBookBtn]}
@@ -141,7 +181,7 @@ const ListingDetails = () => {
         <TouchableOpacity onPress={() => {}} style={styles.footerBtn}>
           <Text style={styles.footerBtnTxt}>$ {listing.price}</Text>
         </TouchableOpacity>
-      </View>
+      </Animated.View>
     </>
   );
 };
@@ -159,6 +199,7 @@ const styles = StyleSheet.create({
   },
   contentWrapper: {
     padding: 20,
+    backgroundColor:Colors.white
   },
   listingName: {
     fontSize: 26,
